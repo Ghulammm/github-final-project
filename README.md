@@ -1,11 +1,13 @@
-# Simple Interest Calculator
+# Final Project - Emotion Detector
 
-A shell script that calculates simple interest given principal, annual rate of interest and time period in years.
+## Project Description
+This is a web-based application developed using Python and Flask that utilizes the Watson NLP library to analyze emotions from text. The system can detect several emotions including anger, disgust, fear, joy, and sadness, and identifies the dominant emotion.
 
-## Input:
-* `p`, principal amount
-* `t`, time period in years
-* `r`, annual rate of interest
+## Project Structure
+- `EmotionDetection/`: Package containing the emotion detection logic.
+- `server.py`: Flask server to handle web requests.
+- `static/`: Contains CSS and JS files for the frontend.
+- `templates/`: Contains the HTML interface.
 
-## Output:
-* `simple interest = p*t*r/100`
+## Author
+Ghulam Muhammad
